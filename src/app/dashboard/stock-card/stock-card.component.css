@@ -1,4 +1,4 @@
-.stock-card-container{
+.stock-card-container {
   width: 21.375rem;
   height: 13.8125rem;
   background-color: var(--secondary-color);
@@ -10,6 +10,10 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+.negative-variation-border {
+  border-left-color: var(--negative-variation-color);
 }
 
 .stock-info-container {
@@ -43,14 +47,14 @@
 
 }
 
-.stock-value-container .value{
+.stock-value-container .value {
   font-size: 3rem;
   font-weight: 600;
   color: var(--text-color);
 
 }
 
-.stock-value-container .variation{
+.stock-value-container .variation {
   background-color: var(--positive-variation-color);
   color: var(--secondary-color);
   padding: 0.25rem 0.5rem;
@@ -58,4 +62,8 @@
   align-self: flex-end;
   margin-top: 0.25rem;
   font-size: 0.8125rem;
+}
+
+.stock-value-container .negative-variation {
+  background-color: var(--negative-variation-color);
 }
